@@ -1,0 +1,37 @@
+.sobre {
+    max-width: 1000px;
+    margin: 0 auto 140px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 30px;
+}
+
+.conteudo p {
+    line-height: 1.40;
+    letter-spacing: 0.5px;
+    color: #767676;
+    margin-bottom: 10px;
+}
+
+.conteudo p span {
+    font-weight: 600;
+    color: #111;
+}
+
+@media (max-width: 950px) {
+    .sobre {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .sobre img {
+        margin: 0 auto 40px auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .sobre img {
+        display: none;
+    }
+}

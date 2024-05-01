@@ -1,0 +1,27 @@
+.container {
+    max-width: 1200px;
+    padding: 0px 20px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+.titulo {
+    line-height: 1.15;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.sub-titulo {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0077b6;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    display: block;
+}
+
+@media (max-width: 500px){
+    .container {
+        padding: 0px;
+    }
+}
