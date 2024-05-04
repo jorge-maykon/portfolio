@@ -8,15 +8,15 @@
 }
 
 .skills p {
-    border-right: 1px solid #111111;
     font-weight: bold;
     padding-right: 10px;
+    text:align-center;
 }
 
 .tech-icones {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 25px;
 }
 
 .tech-icones li {
