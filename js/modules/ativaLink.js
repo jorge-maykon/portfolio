@@ -18,3 +18,19 @@ export default function initLinkMenu(){
     })
 
 }
+
+document.getElementById('downloadLink').addEventListener('click', function(e) {
+    e.preventDefault();
+    Swal.fire({
+        title: 'Escolha o idioma do currículo',
+        showDenyButton: true,
+        confirmButtonText: `Português`,
+        denyButtonText: `Inglês`,
+    }).then((result) => {
+        if (result.isConfirmed) {
+            window.location.href = "./curriculo/curriculopt.pdf";
+        } else if (result.isDenied) {
+            window.location.href = "./curriculo/curriculov1.6.pdf";
+        }
+    })
+});
