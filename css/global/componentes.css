@@ -1,7 +1,14 @@
 .container {
-    max-width: 1200px;
+    max-width: 1500px;
     padding: 0px 20px;
-    margin: 0px auto;
+    margin: 0px auto 250px;
+    box-sizing: border-box;
+}
+
+.container2 {
+    max-width: 1500px;
+    padding: 45px 20px;
+    margin: 0px auto 150px;
     box-sizing: border-box;
 }
 

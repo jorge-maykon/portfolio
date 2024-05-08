@@ -16,17 +16,19 @@
 }
 
 .introducao p {
-    max-width: 70ch;
+    max-width: 100ch;
     margin: 0 auto 30px auto;
     color: #F2F2F2;
+    text-align: center;
 }
 
 .introducao2 p {
-    justify-content: flex-end;
     max-width: 70ch;
     margin: 0 auto 30px auto;
     color: #F2F2F2;
+    text-align: center;
 }
+
 
 
 .minhas-redes{
