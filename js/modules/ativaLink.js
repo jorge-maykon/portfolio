@@ -34,3 +34,21 @@ document.getElementById('downloadLink').addEventListener('click', function(e) {
         }
     })
 });
+
+
+var popup = document.getElementById('popup');
+var span = document.getElementById('close');
+
+window.onload = function() {
+    popup.style.display = "block";
+}
+
+span.onclick = function() {
+    popup.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == popup) {
+        popup.style.display = "none";
+    }
+}

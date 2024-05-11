@@ -4,13 +4,20 @@
 }
 
 .introducao {
-    padding: 60px 20px 20px;
+    padding: 100px 20px 20px;
 }
 
 
 .introducao h1 {
     font-size: 3rem;
     margin-bottom: 10px;
+    text-align: center;
+    color: #0077b6;
+}
+
+.introducao h2 {
+    font-size: 2rem;
+    margin-bottom: 3px;
     text-align: center;
     color: #0077b6;
 }
@@ -23,12 +30,20 @@
 }
 
 .introducao2 p {
-    max-width: 70ch;
+    max-width: 100ch;
     margin: 0 auto 30px auto;
     color: #F2F2F2;
     text-align: center;
 }
 
+.tech-item {
+    text-align: center;
+}
+
+.tech-item img {
+    display: block;
+    margin: 0;
+}
 
 
 .minhas-redes{
