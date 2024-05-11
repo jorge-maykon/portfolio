@@ -12,7 +12,6 @@
     position: absolute;
     width: auto;
     text-align: justify;
-    display:contents;
     flex-wrap: wrap;
 } 
 
