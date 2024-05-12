@@ -14,6 +14,10 @@
     margin-bottom: 10px;
 }
 
+.img1{
+    float: left;
+}
+
 .conteudo p span {
     font-weight: 600;
     color: #111;
