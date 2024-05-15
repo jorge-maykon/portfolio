@@ -18,10 +18,16 @@
     margin: 20px auto;
 }
 
+header img{
+    display: grid;
+    justify-content: start;
+}
+
 .logo {
     font-size: 1.3rem;
     font-weight: 600;
 }
+
 
 .header-menu {
     display: flex;
