@@ -1,6 +1,6 @@
 .header-bg {
-    background-color: #F2F2F2; /* Cor de fundo alterada para azul */
-    border-radius: 20px; /* Bordas redondas adicionadas */
+    background-color: #F2F2F2;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .09);
     width: 100%;
     position: fixed;
@@ -8,7 +8,6 @@
     top: 0;
     z-index: 1000;
 }
-
 
 .header {
     display: flex;
