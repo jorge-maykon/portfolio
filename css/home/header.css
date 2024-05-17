@@ -17,6 +17,14 @@
     margin: 20px auto;
 }
 
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
 header img{
     display: grid;
     justify-content: start;

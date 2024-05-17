@@ -5,14 +5,12 @@
     box-sizing: border-box;
 }
 
-.containernav{
+.container-logo{
     max-width: 100%;
-    padding: 0px 15px;
+    padding: 0px 20px;
     margin: 5%;
     box-sizing: border-box;
-    justify-content: start;
 }
-
 
 .titulo {
     line-height: 1.15;
