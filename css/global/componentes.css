@@ -3,6 +3,7 @@
     padding: 0px 20px;
     margin: 5%;
     box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
 .container-logo{
