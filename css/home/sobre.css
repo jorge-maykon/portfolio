@@ -1,22 +1,29 @@
 .sobre {
-    max-width: 1000px;
-    margin: 0 auto 140px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
     gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto 140px auto;
 }
 
 .conteudo p {
-    line-height: 1.40;
+    line-height: 1.4;
     letter-spacing: 0.5px;
     color: #767676;
     margin-bottom: 10px;
 }
 
-.img1{
-    floa
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.img1 {
+    grid-row: 1 / span 2;
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
 }
 
 .conteudo p span {
@@ -30,13 +37,14 @@
         padding: 20px;
     }
 
-    .sobre img {
+    .img1 {
         margin: 0 auto 40px auto;
+        grid-row: auto;
     }
 }
 
 @media (max-width: 500px) {
-    .sobre img {
+    .img1 {
         display: none;
     }
 }
