@@ -1,6 +1,7 @@
 .introducao-bg {
     background-color: #404040;
-    margin-top: 2rem;
+    margin-top: -30px;
+    max-width: 100%;
 }
 
 .introducao {
@@ -9,7 +10,8 @@
 
 .introducao h1 {
     font-size: 3rem;
-    margin-bottom: 10px;
+    margin: 7% 0;
+    
     text-align: center;
     color: #0077b6;
 }
