@@ -19,6 +19,23 @@
     justify-content: center;
 }
 
+.titulo {
+    line-height: 1.15;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.sub-titulo {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0077b6;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
+}
+
 .img1 {
     grid-row: 1 / span 2;
     width: 100%;
