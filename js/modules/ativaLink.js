@@ -30,7 +30,7 @@ document.getElementById('downloadLink').addEventListener('click', function(e) {
         if (result.isConfirmed) {
             window.location.href = "./curriculo/curriculopt.pdf";
         } else if (result.isDenied) {
-            window.location.href = "./curriculo/curriculov1.6.pdf";
+            window.location.href = "./curriculo/curriculo_v1.7.pdf";
         }
     })
 });
